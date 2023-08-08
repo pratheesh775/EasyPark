@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/lifematch/
+    - export DEPLOYPATH=/home1/wacfus/public_html/lifematch/
     - /bin/cp -r * $DEPLOYPATH
