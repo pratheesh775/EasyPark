@@ -1,7 +1,4 @@
-
-
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/lifematch/
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
